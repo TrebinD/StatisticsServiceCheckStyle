@@ -10,8 +10,6 @@ class StatisticsServiceTest {
 
     @Test
     void findMax() {
-
-
         long[] incomesInBillions = {12, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12};
         long expected = 12;
 
@@ -22,8 +20,6 @@ class StatisticsServiceTest {
 
     @Test
     void cuurentMax() {
-
-
         long[] incomesInBillions = {12, 5, 8, 4, 5, 3, 8, 6, 12, 11, 14};
         long expected = 14;
 
